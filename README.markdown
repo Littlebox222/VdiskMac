@@ -1,3 +1,5 @@
-有不少朋友发邮件提问如何不使用IB创建Cocoa程序实例。现在发一个ZeroIB，顾名思义包括主菜单全部由代码生成。
+有不少朋友提问如何不使用IB创建Cocoa程序实例。发一个ZeroIB，顾名思义包括主菜单全部由代码生成。
 
-![snapshot.png](https://github.com/keefo/ZeroIB/raw/master/snapshot.png "Snapshot")
+在他的基础上做了这个微盘mac的客户端。当然里面的控件全部都是代码生成的。
+
+这是未完成版，开发还在继续。。。
