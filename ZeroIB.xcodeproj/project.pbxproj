@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256AC3DA0F4B6AC300CF3369 /* ZeroIBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ZeroIBAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A72286121271D8F100500B4A /* ZeroIBMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A72286111271D8F100500B4A /* ZeroIBMainMenu.m */; };
+		AD02B75017995C460000448C /* FileListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02B74F17995C460000448C /* FileListTableView.m */; };
+		AD3FE2C917A6647B00394CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		AD3FE2CA17A6647E00394CD7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E42FB307B3F0F600E4EEF1 /* CoreData.framework */; };
+		AD3FE2CB17A6648100394CD7 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97324FDCFA39411CA2CEA /* AppKit.framework */; };
+		AD624C0B179D4E9D006C29DE /* TableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD624C0A179D4E9D006C29DE /* TableFooterView.m */; };
+		AD70131117A66FBE00DBBEE7 /* VdiskSDK-OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD70131017A66FAA00DBBEE7 /* VdiskSDK-OSX.framework */; };
+		AD70131217A66FC900DBBEE7 /* VdiskSDK-OSX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD70131017A66FAA00DBBEE7 /* VdiskSDK-OSX.framework */; };
+		AD70131B17A7B8F600DBBEE7 /* ShareWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AD70131A17A7B8F600DBBEE7 /* ShareWindow.m */; };
+		AD770CD51796BE5500054941 /* TableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD770CD41796BE5500054941 /* TableHeaderView.m */; };
+		AD8FAD311799245C00A6AE56 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8FAD301799245C00A6AE56 /* Quartz.framework */; };
+		ADB74B1E178FE55300136BD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB74B1D178FE55300136BD2 /* QuartzCore.framework */; };
+		ADB74B241790089000136BD2 /* image001.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB74B231790089000136BD2 /* image001.png */; };
+		ADB74B2717900A5000136BD2 /* TableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB74B2617900A5000136BD2 /* TableCellView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD70130D17A66FAA00DBBEE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8DEB6D178FCB1E00467C2C /* VdiskSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FA18FB0158F43D0002FF989;
+			remoteInfo = "VdiskSDK-iOS";
+		};
+		AD70130F17A66FAA00DBBEE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8DEB6D178FCB1E00467C2C /* VdiskSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3FE354DF15DCF19000BCFD72;
+			remoteInfo = "VdiskSDK-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD3FE2D217A667E200394CD7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD70131217A66FC900DBBEE7 /* VdiskSDK-OSX.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		256AC3D80F4B6AC300CF3369 /* ZeroIBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZeroIBAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* ZeroIBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZeroIBAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* ZeroIB_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZeroIB_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* ZeroIB-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ZeroIB-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ZeroIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72286101271D8F100500B4A /* ZeroIBMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZeroIBMainMenu.h; sourceTree = "<group>"; };
+		A72286111271D8F100500B4A /* ZeroIBMainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZeroIBMainMenu.m; sourceTree = "<group>"; };
+		AD02B74E17995C460000448C /* FileListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileListTableView.h; sourceTree = "<group>"; };
+		AD02B74F17995C460000448C /* FileListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileListTableView.m; sourceTree = "<group>"; };
+		AD624C09179D4E9D006C29DE /* TableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableFooterView.h; sourceTree = "<group>"; };
+		AD624C0A179D4E9D006C29DE /* TableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableFooterView.m; sourceTree = "<group>"; };
+		AD70131917A7B8F600DBBEE7 /* ShareWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWindow.h; sourceTree = "<group>"; };
+		AD70131A17A7B8F600DBBEE7 /* ShareWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareWindow.m; sourceTree = "<group>"; };
+		AD770CD31796BE5500054941 /* TableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableHeaderView.h; sourceTree = "<group>"; };
+		AD770CD41796BE5500054941 /* TableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableHeaderView.m; sourceTree = "<group>"; };
+		AD8DEB6D178FCB1E00467C2C /* VdiskSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VdiskSDK.xcodeproj; path = ../../workspace/svn/ios/sdk/1/VdiskSDK/VdiskSDK/VdiskSDK.xcodeproj; sourceTree = "<group>"; };
+		AD8FAD301799245C00A6AE56 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		ADB74B1D178FE55300136BD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADB74B231790089000136BD2 /* image001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image001.png; sourceTree = "<group>"; };
+		ADB74B2517900A5000136BD2 /* TableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCellView.h; sourceTree = "<group>"; };
+		ADB74B2617900A5000136BD2 /* TableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCellView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD70131117A66FBE00DBBEE7 /* VdiskSDK-OSX.framework in Frameworks */,
+				AD8FAD311799245C00A6AE56 /* Quartz.framework in Frameworks */,
+				ADB74B1E178FE55300136BD2 /* QuartzCore.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				AD3FE2C917A6647B00394CD7 /* Foundation.framework in Frameworks */,
+				AD3FE2CA17A6647E00394CD7 /* CoreData.framework in Frameworks */,
+				AD3FE2CB17A6648100394CD7 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* ZeroIBAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* ZeroIBAppDelegate.m */,
+				A72286101271D8F100500B4A /* ZeroIBMainMenu.h */,
+				A72286111271D8F100500B4A /* ZeroIBMainMenu.m */,
+				ADB74B2517900A5000136BD2 /* TableCellView.h */,
+				ADB74B2617900A5000136BD2 /* TableCellView.m */,
+				AD770CD31796BE5500054941 /* TableHeaderView.h */,
+				AD770CD41796BE5500054941 /* TableHeaderView.m */,
+				AD02B74E17995C460000448C /* FileListTableView.h */,
+				AD02B74F17995C460000448C /* FileListTableView.m */,
+				AD624C09179D4E9D006C29DE /* TableFooterView.h */,
+				AD624C0A179D4E9D006C29DE /* TableFooterView.m */,
+				AD70131917A7B8F600DBBEE7 /* ShareWindow.h */,
+				AD70131A17A7B8F600DBBEE7 /* ShareWindow.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD8FAD301799245C00A6AE56 /* Quartz.framework */,
+				ADB74B1D178FE55300136BD2 /* QuartzCore.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ZeroIB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ZeroIB */ = {
+			isa = PBXGroup;
+			children = (
+				AD8DEB6D178FCB1E00467C2C /* VdiskSDK.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ZeroIB;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* ZeroIB_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADB74B221790089000136BD2 /* image */,
+				8D1107310486CEB800E47090 /* ZeroIB-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD70130917A66FAA00DBBEE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD70130E17A66FAA00DBBEE7 /* libVdiskSDK.a */,
+				AD70131017A66FAA00DBBEE7 /* VdiskSDK-OSX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADB74B221790089000136BD2 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				ADB74B231790089000136BD2 /* image001.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ZeroIB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ZeroIB" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				AD3FE2D217A667E200394CD7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeroIB;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ZeroIB;
+			productReference = 8D1107320486CEB800E47090 /* ZeroIB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZeroIB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ZeroIB */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AD70130917A66FAA00DBBEE7 /* Products */;
+					ProjectRef = AD8DEB6D178FCB1E00467C2C /* VdiskSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ZeroIB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AD70130E17A66FAA00DBBEE7 /* libVdiskSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = libVdiskSDK.a;
+			path = "libVdiskSDK-iOS.a";
+			remoteRef = AD70130D17A66FAA00DBBEE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AD70131017A66FAA00DBBEE7 /* VdiskSDK-OSX.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "VdiskSDK-OSX.framework";
+			remoteRef = AD70130F17A66FAA00DBBEE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				ADB74B241790089000136BD2 /* image001.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* ZeroIBAppDelegate.m in Sources */,
+				A72286121271D8F100500B4A /* ZeroIBMainMenu.m in Sources */,
+				ADB74B2717900A5000136BD2 /* TableCellView.m in Sources */,
+				AD770CD51796BE5500054941 /* TableHeaderView.m in Sources */,
+				AD02B75017995C460000448C /* FileListTableView.m in Sources */,
+				AD624C0B179D4E9D006C29DE /* TableFooterView.m in Sources */,
+				AD70131B17A7B8F600DBBEE7 /* ShareWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZeroIB_Prefix.pch;
+				INFOPLIST_FILE = "ZeroIB-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = ZeroIB;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZeroIB_Prefix.pch;
+				INFOPLIST_FILE = "ZeroIB-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = ZeroIB;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ZeroIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZeroIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
